@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Empresa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/funciones.js"></script>  
+  </head>
+
+  <body>
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="img/reciclar.png" alt="X"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="empresa.html">Empresa</a></li>
+          <li><a href="guias.html">Guias</a></li>
+        </ul>
+      </div>
+    </nav>   
+    <!-- Dropdown Trigger -->
+    <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Detaller de nuestra empresa</a>
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!" onclick="mensaje1()">Sobre nosotros</a></li>
+      <li><a href="#!" onclick="mensaje2()">¿Cómo podemos ayudarte?</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="#!">Actualidad</a></li>
+      <li><a href="#!"><i class="material-icons">live_help</i>Solicitudes</a></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>Publicacione</a></li>
+    </ul>
+    <div style="width: 100%; height: 330px;">
+      <div id="texto">
+
+      </div>
+    </div>
+    <footer class="page-footer" style="padding-top: 1px;">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Contactos</h5>
+            <p class="grey-text text-lighten-4">Teléfono: +57 234 2344323.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Redes</h5>
+            <ul>
+              <div class="chip" style="vertical-align: center;">
+                <i class="close material-icons"><img src="img/fb.png" style="width: 20px; height: 20px;"></i>
+                @reciclar
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Text
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

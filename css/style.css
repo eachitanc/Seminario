@@ -1,0 +1,29 @@
+img{
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+}
+.carusel{
+    width: 250px;
+    height: 250px;
+}
+#contenedor{
+    background-color: #8BF5AA;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+h3{
+    color:green;
+}
+#texto{
+    margin: 20 px;
+    font-size: 20px;
+    padding: 20px;
+}
